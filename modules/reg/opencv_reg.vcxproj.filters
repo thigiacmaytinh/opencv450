@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\map.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mapaffine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mapper.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mappergradaffine.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mappergradeuclid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mappergradproj.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mappergradshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mappergradsimilar.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mapperpyramid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mapprojec.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\mapshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\reg\opencv_reg_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\reg\opencv_reg_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\map.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapaffine.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapper.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradaffine.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradeuclid.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradproj.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradshift.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mappergradsimilar.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapperpyramid.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapprojec.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\include\opencv2\reg\mapshift.hpp">
+      <Filter>Include\opencv2\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\reg\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv450\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\LIB\opencv\opencv450\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\LIB\opencv\opencv450\build\modules\reg\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{0F4E727C-A542-39DA-A5B7-B658528F0B6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{8E98FA75-E5B5-3AD2-AC34-8A455A40CD7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\reg">
+      <UniqueIdentifier>{B948B0ED-19F8-30BD-8AC0-3C6F00325C47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CE12B7EF-4DE0-3097-AE17-93B2DA197F27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{CD70F01E-A37A-31F4-9B99-9B18D6482D8A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

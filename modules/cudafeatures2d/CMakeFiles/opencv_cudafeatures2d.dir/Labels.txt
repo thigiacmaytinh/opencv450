@@ -1,0 +1,62 @@
+# Target labels
+ Extra
+ opencv_cudafeatures2d
+ Module
+# Source files and their labels
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/include/opencv2/cudafeatures2d.hpp
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/brute_force_matcher.cpp
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/fast.cpp
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/feature2d_async.cpp
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/orb.cpp
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/precomp.hpp
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/bf_knnmatch.cu
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/bf_match.cu
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/bf_radius_match.cu
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/fast.cu
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/orb.cu
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv450/build/cvconfig.h
+D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/opencv_cudafeatures2d_pch.cpp
+ Extra
+ opencv_cudafeatures2d
+ Module
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/vs_version.rc
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/opencv_cudafeatures2d_main.cpp
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bf_knnmatch.cu.obj
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bf_match.cu.obj
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bf_radius_match.cu.obj
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fast.cu.obj
+D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_orb.cu.obj

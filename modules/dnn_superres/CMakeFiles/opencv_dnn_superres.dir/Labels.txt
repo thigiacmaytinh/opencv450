@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_dnn_superres
+ Module
+# Source files and their labels
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/dnn_superres/include/opencv2/dnn_superres.hpp
+ Extra
+ opencv_dnn_superres
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/dnn_superres/src/dnn_superres.cpp
+ Extra
+ opencv_dnn_superres
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/dnn_superres/src/precomp.hpp
+ Extra
+ opencv_dnn_superres
+ Module
+D:/LIB/opencv/opencv450/build/cvconfig.h
+D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp
+D:/LIB/opencv/opencv450/build/modules/dnn_superres/opencv_dnn_superres_pch.cpp
+ Extra
+ opencv_dnn_superres
+ Module
+D:/LIB/opencv/opencv450/build/modules/dnn_superres/vs_version.rc
+D:/LIB/opencv/opencv450/build/modules/dnn_superres/opencv_dnn_superres_main.cpp

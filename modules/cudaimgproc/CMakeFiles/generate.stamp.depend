@@ -1,0 +1,37 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bilateral_filter.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bilateral_filter.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_blend.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_blend.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_build_point_list.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_build_point_list.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_canny.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_canny.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_clahe.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_clahe.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_color.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_color.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_corners.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_corners.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_debayer.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_debayer.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_generalized_hough.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_generalized_hough.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gftt.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gftt.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hist.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hist.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_circles.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_circles.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_lines.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_lines.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_segments.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hough_segments.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_match_template.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_match_template.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mean_shift.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaimgproc/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_mean_shift.cu.obj.depend
+D:/LIB/opencv/opencv450/sources/cmake/templates/dllmain.cpp.in
+D:/LIB/opencv/opencv450/sources/cmake/templates/vs_version.rc.in
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaimgproc/CMakeLists.txt

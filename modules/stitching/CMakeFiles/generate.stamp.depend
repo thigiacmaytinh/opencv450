@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+D:/LIB/opencv/opencv450/build/modules/stitching/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_build_warp_maps.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/stitching/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_build_warp_maps.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/stitching/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_multiband_blend.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/stitching/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_multiband_blend.cu.obj.depend
+D:/LIB/opencv/opencv450/sources/cmake/templates/dllmain.cpp.in
+D:/LIB/opencv/opencv450/sources/cmake/templates/vs_version.rc.in
+D:/LIB/opencv/opencv450/sources/modules/stitching/CMakeLists.txt

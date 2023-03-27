@@ -1,0 +1,99 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/structured_light/include/opencv2/structured_light.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/structured_light/include/opencv2/structured_light/graycodepattern.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/structured_light/include/opencv2/structured_light/sinusoidalpattern.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/structured_light/include/opencv2/structured_light/structured_light.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/structured_light/src/graycodepattern.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/structured_light/src/sinusoidalpattern.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/structured_light/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/cvconfig.h"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/structured_light/opencv_structured_light_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_structured_light",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/structured_light/vs_version.rc"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/structured_light/opencv_structured_light_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_structured_light",
+			"Module"
+		],
+		"name" : "opencv_structured_light"
+	}
+}

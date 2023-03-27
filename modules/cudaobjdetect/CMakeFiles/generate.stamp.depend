@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hog.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_hog.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_lbp.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_lbp.cu.obj.depend
+D:/LIB/opencv/opencv450/sources/cmake/templates/dllmain.cpp.in
+D:/LIB/opencv/opencv450/sources/cmake/templates/vs_version.rc.in
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/CMakeLists.txt

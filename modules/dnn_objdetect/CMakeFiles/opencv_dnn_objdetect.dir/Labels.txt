@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_dnn_objdetect
+ Module
+# Source files and their labels
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/dnn_objdetect/include/opencv2/core_detect.hpp
+ Extra
+ opencv_dnn_objdetect
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/dnn_objdetect/src/core_detect.cpp
+ Extra
+ opencv_dnn_objdetect
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/dnn_objdetect/src/precomp.hpp
+ Extra
+ opencv_dnn_objdetect
+ Module
+D:/LIB/opencv/opencv450/build/cvconfig.h
+D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp
+D:/LIB/opencv/opencv450/build/modules/dnn_objdetect/opencv_dnn_objdetect_pch.cpp
+ Extra
+ opencv_dnn_objdetect
+ Module
+D:/LIB/opencv/opencv450/build/modules/dnn_objdetect/vs_version.rc
+D:/LIB/opencv/opencv450/build/modules/dnn_objdetect/opencv_dnn_objdetect_main.cpp

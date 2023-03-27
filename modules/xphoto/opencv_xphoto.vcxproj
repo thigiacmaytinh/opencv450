@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{589DB57E-C74E-3EB1-8FFA-D4DC1DEA9686}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_xphoto</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LIB\opencv\opencv450\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_xphoto.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_xphoto450d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LIB\opencv\opencv450\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_xphoto.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_xphoto450</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include;D:\LIB\opencv\opencv450\build\modules\xphoto;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudev\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudafilters\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\LIB\opencv\opencv450\build\lib\Debug\opencv_xphoto450d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include;D:\LIB\opencv\opencv450\build\modules\xphoto;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudev\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudafilters\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include;D:\LIB\opencv\opencv450\build\modules\xphoto;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudev\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudafilters\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_photo450d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;cublas.lib;cudnn.lib;cufft.lib;-LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/lib/x64;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;..\..\lib\Debug\opencv_cudaimgproc450d.lib;..\..\lib\Debug\opencv_cudafilters450d.lib;..\..\lib\Debug\opencv_cudaarithm450d.lib;..\..\lib\Debug\opencv_imgproc450d.lib;..\..\lib\Debug\opencv_core450d.lib;..\..\lib\Debug\opencv_cudev450d.lib;cublas.lib;cudnn.lib;cufft.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LIB/opencv/opencv450/build/lib/Debug/opencv_xphoto450d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LIB/opencv/opencv450/build/bin/Debug/opencv_xphoto450d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include;D:\LIB\opencv\opencv450\build\modules\xphoto;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudev\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudafilters\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Release";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\LIB\opencv\opencv450\build\lib\Release\opencv_xphoto450.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include;D:\LIB\opencv\opencv450\build\modules\xphoto;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudev\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudafilters\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src;D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include;D:\LIB\opencv\opencv450\build\modules\xphoto;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudev\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaarithm\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudafilters\include;D:\LIB\opencv\opencv_contrib-4.5.0\modules\cudaimgproc\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_photo450.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;cublas.lib;cudnn.lib;cufft.lib;-LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/lib/x64;cudart_static.lib;nppc.lib;nppial.lib;nppicc.lib;nppidei.lib;nppif.lib;nppig.lib;nppim.lib;nppist.lib;nppisu.lib;nppitc.lib;npps.lib;..\..\lib\Release\opencv_cudaimgproc450.lib;..\..\lib\Release\opencv_cudafilters450.lib;..\..\lib\Release\opencv_cudaarithm450.lib;..\..\lib\Release\opencv_imgproc450.lib;..\..\lib\Release\opencv_core450.lib;..\..\lib\Release\opencv_cudev450.lib;cublas.lib;cudnn.lib;cufft.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/LIB/opencv/opencv450/build/lib/Release/opencv_xphoto450.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/LIB/opencv/opencv450/build/bin/Release/opencv_xphoto450.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include\opencv2\xphoto.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include\opencv2\xphoto\bm3d_image_denoising.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include\opencv2\xphoto\dct_image_denoising.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include\opencv2\xphoto\inpainting.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include\opencv2\xphoto\oilpainting.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include\opencv2\xphoto\tonemap.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\include\opencv2\xphoto\white_balance.hpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_image_denoising.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\dct_image_denoising.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\grayworld_white_balance.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\inpainting.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\learning_based_color_balance.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\oilpainting.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\simple_color_balance.cpp" />
+    <ClCompile Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\tonemap.cpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\advanced_types.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\annf.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\blending.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_invoker_commons.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_invoker_step1.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_invoker_step2.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_invoker_structs.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_transforms.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_transforms_1D.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_transforms_2D.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\bm3d_denoising_transforms_haar.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\gcgraph.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\inpainting_fsr.impl.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\kaiser_window.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\learning_based_color_balance_model.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\norm2.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\photomontage.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv_contrib-4.5.0\modules\xphoto\src\whs.hpp" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\build\cvconfig.h" />
+    <ClInclude Include="D:\LIB\opencv\opencv450\build\opencv2\opencv_modules.hpp" />
+    <ResourceCompile Include="D:\LIB\opencv\opencv450\build\modules\xphoto\vs_version.rc" />
+    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\xphoto\opencv_xphoto_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{ECEA50E7-4EFC-346A-9D42-4ED01CA96DA0}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\core\opencv_core.vcxproj">
+      <Project>{26820A44-4B84-3AD3-A82C-3BB5CC597915}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\cudaarithm\opencv_cudaarithm.vcxproj">
+      <Project>{F3A13A99-A132-3750-9B4D-394C608EE5C3}</Project>
+      <Name>opencv_cudaarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\cudafilters\opencv_cudafilters.vcxproj">
+      <Project>{DA01F59E-9825-3B65-9DCE-7C7650F600F8}</Project>
+      <Name>opencv_cudafilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\cudaimgproc\opencv_cudaimgproc.vcxproj">
+      <Project>{A68943B5-7701-3D98-B492-7EB463BE22D9}</Project>
+      <Name>opencv_cudaimgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\cudev\opencv_cudev.vcxproj">
+      <Project>{C8BD5CF9-F46D-3593-8000-AF87086BDCED}</Project>
+      <Name>opencv_cudev</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{2989009F-683B-3056-8726-9FD2005880A4}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\photo\opencv_photo.vcxproj">
+      <Project>{00A0B2A6-6CA2-3361-B74D-F978A64848AC}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

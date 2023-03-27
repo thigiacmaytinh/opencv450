@@ -1,0 +1,49 @@
+# Target labels
+ Extra
+ opencv_ccalib
+ Module
+# Source files and their labels
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/include/opencv2/ccalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/include/opencv2/ccalib/multicalib.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/include/opencv2/ccalib/omnidir.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/include/opencv2/ccalib/randpattern.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/src/ccalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/src/multicalib.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/src/omnidir.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/src/randpattern.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/ccalib/src/precomp.hpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv450/build/cvconfig.h
+D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp
+D:/LIB/opencv/opencv450/build/modules/ccalib/opencv_ccalib_pch.cpp
+ Extra
+ opencv_ccalib
+ Module
+D:/LIB/opencv/opencv450/build/modules/ccalib/vs_version.rc
+D:/LIB/opencv/opencv450/build/modules/ccalib/opencv_ccalib_main.cpp

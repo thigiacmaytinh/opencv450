@@ -1,0 +1,150 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/include/opencv2/cudafeatures2d.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/brute_force_matcher.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/fast.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/feature2d_async.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/orb.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/bf_knnmatch.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/bf_match.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/bf_radius_match.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/fast.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudafeatures2d/src/cuda/orb.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/cvconfig.h"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/opencv_cudafeatures2d_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudafeatures2d",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/vs_version.rc"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/opencv_cudafeatures2d_main.cpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bf_knnmatch.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bf_match.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_bf_radius_match.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_fast.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudafeatures2d/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_orb.cu.obj"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudafeatures2d",
+			"Module"
+		],
+		"name" : "opencv_cudafeatures2d"
+	}
+}

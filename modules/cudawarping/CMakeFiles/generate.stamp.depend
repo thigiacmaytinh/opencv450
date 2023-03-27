@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_pyr_down.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_pyr_down.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_pyr_up.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_pyr_up.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_remap.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_remap.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_resize.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_resize.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_warp.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_warp.cu.obj.depend
+D:/LIB/opencv/opencv450/sources/cmake/templates/dllmain.cpp.in
+D:/LIB/opencv/opencv450/sources/cmake/templates/vs_version.rc.in
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/CMakeLists.txt

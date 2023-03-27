@@ -1,0 +1,63 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/plot/include/opencv2/plot.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/plot/src/plot.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/plot/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/cvconfig.h"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/plot/opencv_plot_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/plot/vs_version.rc"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/plot/opencv_plot_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_plot",
+			"Module"
+		],
+		"name" : "opencv_plot"
+	}
+}

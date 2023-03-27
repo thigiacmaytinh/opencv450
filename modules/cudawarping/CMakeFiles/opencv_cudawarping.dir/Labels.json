@@ -1,0 +1,150 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/include/opencv2/cudawarping.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/pyramids.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/remap.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/resize.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/warp.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/pyr_down.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/pyr_up.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/remap.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/resize.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudawarping/src/cuda/warp.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/cvconfig.h"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/opencv_cudawarping_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudawarping",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/vs_version.rc"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/opencv_cudawarping_main.cpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_pyr_down.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_pyr_up.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_remap.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_resize.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudawarping/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_warp.cu.obj"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudawarping",
+			"Module"
+		],
+		"name" : "opencv_cudawarping"
+	}
+}

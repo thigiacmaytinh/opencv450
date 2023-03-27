@@ -1,0 +1,105 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/include/opencv2/cudaobjdetect.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/src/cascadeclassifier.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/src/hog.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/src/cuda/lbp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/src/cuda/hog.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudaobjdetect/src/cuda/lbp.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/cvconfig.h"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/opencv_cudaobjdetect_pch.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaobjdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/vs_version.rc"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/opencv_cudaobjdetect_main.cpp"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_hog.cu.obj"
+		},
+		{
+			"file" : "D:/LIB/opencv/opencv450/build/modules/cudaobjdetect/CMakeFiles/cuda_compile_1.dir/src/cuda/$(Configuration)/cuda_compile_1_generated_lbp.cu.obj"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudaobjdetect",
+			"Module"
+		],
+		"name" : "opencv_cudaobjdetect"
+	}
+}

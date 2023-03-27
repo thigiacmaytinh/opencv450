@@ -1,0 +1,57 @@
+# Target labels
+ Extra
+ opencv_stereo
+ Module
+# Source files and their labels
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/include/opencv2/stereo.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/include/opencv2/stereo/descriptor.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/include/opencv2/stereo/quasi_dense_stereo.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/include/opencv2/stereo/stereo.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/src/descriptor.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/src/quasi_dense_stereo.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/src/stereo_binary_bm.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/src/stereo_binary_sgbm.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/src/descriptor.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/src/matching.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/stereo/src/precomp.hpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv450/build/cvconfig.h
+D:/LIB/opencv/opencv450/build/opencv2/opencv_modules.hpp
+D:/LIB/opencv/opencv450/build/modules/stereo/opencv_stereo_pch.cpp
+ Extra
+ opencv_stereo
+ Module
+D:/LIB/opencv/opencv450/build/modules/stereo/vs_version.rc
+D:/LIB/opencv/opencv450/build/modules/stereo/opencv_stereo_main.cpp

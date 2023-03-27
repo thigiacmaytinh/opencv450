@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCV.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCV.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVBroxOpticalFlow.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVBroxOpticalFlow.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVHaarObjectDetection.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVHaarObjectDetection.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVPyramid.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NCVPyramid.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NPP_staging.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_NPP_staging.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm_fast.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_bm_fast.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_calib3d.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_calib3d.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_ccomponetns.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_ccomponetns.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fgd.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_fgd.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gmg.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_gmg.cu.obj.depend
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_needle_map.cu.obj.cmake.pre-gen
+D:/LIB/opencv/opencv450/build/modules/cudalegacy/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_needle_map.cu.obj.depend
+D:/LIB/opencv/opencv450/sources/cmake/templates/dllmain.cpp.in
+D:/LIB/opencv/opencv450/sources/cmake/templates/vs_version.rc.in
+D:/LIB/opencv/opencv_contrib-4.5.0/modules/cudalegacy/CMakeLists.txt
