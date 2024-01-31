@@ -133,7 +133,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\Debug-x64\opencv_highgui450d.libopencv_xobjdetect450d.libopencv_videoio450d.libopencv_imgcodecs450d.libopencv_objdetect450d.libopencv_calib3d450d.libopencv_features2d450d.libopencv_imgproc450d.libopencv_flann450d.libopencv_core450d.lib;libjpeg-turbod.lib;libtiffd.lib;libpngd.lib;libwebpd.lib;zlibd.lib;libopenjp2d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>opencv_highgui450d.lib;opencv_xobjdetect450d.lib;opencv_videoio450d.lib;opencv_imgcodecs450d.lib;opencv_objdetect450d.lib;opencv_calib3d450d.lib;opencv_features2d450d.lib;opencv_imgproc450d.lib;opencv_flann450d.lib;opencv_core450d.lib;libjpeg-turbod.lib;libtiffd.lib;libpngd.lib;libwebpd.lib;zlibd.lib;libopenjp2d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\..\3rdparty\lib\$(Configuration)-x64;..\..\..\..\modules\lib\$(Configuration)-x64;..\..\..\..\contrib\lib\$(Configuration)-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -237,7 +237,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\..\lib\Release-x64\opencv_highgui450.libopencv_xobjdetect450.libopencv_videoio450.libopencv_imgcodecs450.libopencv_objdetect450.libopencv_calib3d450.libopencv_features2d450.libopencv_imgproc450.libopencv_flann450.libopencv_core450.lib;libjpeg-turbo.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_highgui450.lib;opencv_xobjdetect450.lib;opencv_videoio450.lib;opencv_imgcodecs450.lib;opencv_objdetect450.lib;opencv_calib3d450.lib;opencv_features2d450.lib;opencv_imgproc450.lib;opencv_flann450.lib;opencv_core450.lib;libjpeg-turbo.lib;kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\..\..\..\3rdparty\lib\$(Configuration)-x64;..\..\..\..\modules\lib\$(Configuration)-x64;..\..\..\..\contrib\lib\$(Configuration)-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>

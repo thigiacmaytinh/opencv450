@@ -137,7 +137,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>opencv_highgui450d.lib;opencv_videoio450d.lib;opencv_aruco450d.lib;opencv_imgcodecs450d.lib;opencv_calib3d450d.lib;opencv_features2d450d.lib;opencv_imgproc450d.lib;opencv_flann450d.lib;opencv_core450d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\3rdparty\lib\$(Configuration)-x64;..\..\modules\lib\$(Configuration)-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\3rdparty\lib\$(Configuration)-x64;..\..\modules\lib\$(Configuration)-x64;..\..\contrib\lib\$(Configuration)-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -241,7 +241,7 @@
     </Midl>
     <Link>
       <AdditionalDependencies>opencv_highgui450.lib;opencv_videoio450.lib;opencv_aruco450.lib;opencv_imgcodecs450.lib;opencv_calib3d450.lib;opencv_features2d450.lib;opencv_imgproc450.lib;opencv_flann450.lib;opencv_core450.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\3rdparty\lib\$(Configuration)-x64;..\..\modules\lib\$(Configuration)-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\3rdparty\lib\$(Configuration)-x64;..\..\modules\lib\$(Configuration)-x64;..\..\contrib\lib\$(Configuration)-x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
