@@ -1,88 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\videoio_registry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\videoio_c.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap_images.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap_mjpeg_encoder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap_mjpeg_decoder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\backend_plugin.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\backend_static.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\container_avi.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap_dshow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap_msmf.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\videoio\opencv_videoio_pch.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\videoio\opencv_videoio_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="src\videoio_registry.cpp" />
+    <ClCompile Include="src\videoio_c.cpp" />
+    <ClCompile Include="src\cap.cpp" />
+    <ClCompile Include="src\cap_images.cpp" />
+    <ClCompile Include="src\cap_mjpeg_encoder.cpp" />
+    <ClCompile Include="src\cap_mjpeg_decoder.cpp" />
+    <ClCompile Include="src\backend_plugin.cpp" />
+    <ClCompile Include="src\backend_static.cpp" />
+    <ClCompile Include="src\container_avi.cpp" />
+    <ClCompile Include="src\cap_dshow.cpp" />
+    <ClCompile Include="src\cap_msmf.cpp" />
+    <ClCompile Include="opencv_videoio_pch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\include\opencv2\videoio.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\include\opencv2\videoio\cap_ios.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\include\opencv2\videoio\container_avi.private.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\include\opencv2\videoio\legacy\constants_c.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\include\opencv2\videoio\registry.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\include\opencv2\videoio\videoio.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\include\opencv2\videoio\videoio_c.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\precomp.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap_dshow.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\videoio\src\cap_msmf.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\build\cvconfig.h">
-      <Filter>Include</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\build\opencv2\opencv_modules.hpp">
-      <Filter>Include</Filter>
-    </ClInclude>
+    <ClInclude Include="include\opencv2\videoio.hpp" />
+    <ClInclude Include="include\opencv2\videoio\cap_ios.h" />
+    <ClInclude Include="include\opencv2\videoio\container_avi.private.hpp" />
+    <ClInclude Include="include\opencv2\videoio\legacy\constants_c.h" />
+    <ClInclude Include="include\opencv2\videoio\registry.hpp" />
+    <ClInclude Include="include\opencv2\videoio\videoio.hpp" />
+    <ClInclude Include="include\opencv2\videoio\videoio_c.h" />
+    <ClInclude Include="src\precomp.hpp" />
+    <ClInclude Include="src\cap_dshow.hpp" />
+    <ClInclude Include="src\cap_msmf.hpp" />
+    <ClInclude Include="cvconfig.h" />
+    <ClInclude Include="opencv_modules.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="D:\LIB\opencv\opencv450\build\modules\videoio\vs_version.rc">
-      <Filter>Src</Filter>
-    </ResourceCompile>
+    <ResourceCompile Include="vs_version.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">

@@ -1,0 +1,12 @@
+﻿  opencl_kernels_objdetect.cpp
+  opencv_objdetect_main.cpp
+  cascadedetect.cpp
+  cascadedetect_convert.cpp
+  detection_based_tracker.cpp
+  hog.cpp
+  main.cpp
+  qrcode.cpp
+  opencv_objdetect_pch.cpp
+opencv_objdetect_pch.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+main.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  opencv_objdetect.vcxproj -> D:\PROJECT\CV\FaceFinder\lib\opencv450\modules\objdetect\..\lib\Debug-x64\opencv_objdetect450d.lib

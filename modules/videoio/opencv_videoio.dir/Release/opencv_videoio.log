@@ -1,0 +1,13 @@
+﻿  videoio_registry.cpp
+  videoio_c.cpp
+  cap.cpp
+  cap_images.cpp
+  cap_mjpeg_encoder.cpp
+  cap_mjpeg_decoder.cpp
+  backend_static.cpp
+  container_avi.cpp
+  cap_dshow.cpp
+  cap_msmf.cpp
+  backend_plugin.cpp
+  opencv_videoio_pch.cpp
+  opencv_videoio.vcxproj -> D:\PROJECT\CV\FaceFinder\lib\opencv450\modules\videoio\..\lib\Release-x64\opencv_videoio450.lib

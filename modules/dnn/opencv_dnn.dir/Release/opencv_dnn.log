@@ -1,0 +1,124 @@
+﻿  opencv-caffe.pb.cc
+  opencv-onnx.pb.cc
+  attr_value.pb.cc
+  function.pb.cc
+  graph.pb.cc
+  op_def.pb.cc
+  tensor.pb.cc
+  tensor_shape.pb.cc
+  types.pb.cc
+  versions.pb.cc
+  opencv_dnn_pch.cpp
+  caffe_importer.cpp
+  caffe_io.cpp
+  caffe_shrinker.cpp
+  darknet_importer.cpp
+  darknet_io.cpp
+  dnn.cpp
+  graph_simplifier.cpp
+  halide_scheduler.cpp
+  ie_ngraph.cpp
+  init.cpp
+  accum_layer.cpp
+  batch_norm_layer.cpp
+  blank_layer.cpp
+  concat_layer.cpp
+  const_layer.cpp
+  convolution_layer.cpp
+  correlation_layer.cpp
+  crop_and_resize_layer.cpp
+  detection_output_layer.cpp
+  elementwise_layers.cpp
+  eltwise_layer.cpp
+  flatten_layer.cpp
+  flow_warp_layer.cpp
+  fully_connected_layer.cpp
+  layers_common.cpp
+  lrn_layer.cpp
+  max_unpooling_layer.cpp
+  mvn_layer.cpp
+  normalize_bbox_layer.cpp
+  padding_layer.cpp
+  permute_layer.cpp
+  pooling_layer.cpp
+  prior_box_layer.cpp
+  proposal_layer.cpp
+  recurrent_layers.cpp
+  region_layer.cpp
+  reorg_layer.cpp
+  reshape_layer.cpp
+  resize_layer.cpp
+  scale_layer.cpp
+  shuffle_channel_layer.cpp
+  slice_layer.cpp
+  softmax_layer.cpp
+  split_layer.cpp
+  model.cpp
+  nms.cpp
+  common.cpp
+  math_functions.cpp
+  ocl4dnn_conv_spatial.cpp
+  ocl4dnn_inner_product.cpp
+  ocl4dnn_lrn.cpp
+  ocl4dnn_pool.cpp
+  ocl4dnn_softmax.cpp
+  onnx_graph_simplifier.cpp
+  onnx_importer.cpp
+  op_halide.cpp
+  op_inf_engine.cpp
+  op_vkcom.cpp
+  tengine_graph_convolution.cpp
+  tf_graph_simplifier.cpp
+  tf_importer.cpp
+  tf_io.cpp
+  THDiskFile.cpp
+  THFile.cpp
+  THGeneral.cpp
+  torch_importer.cpp
+  avg_pool_spv.cpp
+  concat_spv.cpp
+  conv48_spv.cpp
+  conv_spv.cpp
+  dw_conv_spv.cpp
+  lrn_spv.cpp
+  max_pool_spv.cpp
+  permute_spv.cpp
+  prior_box_spv.cpp
+  relu_spv.cpp
+  softmax_spv.cpp
+  buffer.cpp
+  context.cpp
+  internal.cpp
+  op_base.cpp
+  op_concat.cpp
+  op_conv.cpp
+  op_lrn.cpp
+  op_permute.cpp
+  op_pool.cpp
+  op_prior_box.cpp
+  op_relu.cpp
+  op_softmax.cpp
+  tensor.cpp
+  vk_functions.cpp
+  vk_loader.cpp
+  opencl_kernels_dnn.cpp
+  opencv_dnn_main.cpp
+opencv_dnn_pch.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+vk_loader.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+vk_functions.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+tensor.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_softmax.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_relu.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_prior_box.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_pool.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_permute.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_lrn.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_conv.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_concat.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+op_base.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+context.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+buffer.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+THGeneral.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+tengine_graph_convolution.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  opencv_dnn.vcxproj -> D:\PROJECT\CV\FaceFinder\lib\opencv450\modules\dnn\..\lib\Release-x64\opencv_dnn450.lib

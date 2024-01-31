@@ -1,0 +1,20 @@
+﻿  opencv_ml_main.cpp
+  ann_mlp.cpp
+  boost.cpp
+  data.cpp
+  em.cpp
+  gbt.cpp
+  inner_functions.cpp
+  kdtree.cpp
+  knearest.cpp
+  lr.cpp
+  nbayes.cpp
+  rtrees.cpp
+  svm.cpp
+  svmsgd.cpp
+  testset.cpp
+  tree.cpp
+  opencv_ml_pch.cpp
+opencv_ml_pch.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+gbt.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  opencv_ml.vcxproj -> D:\PROJECT\CV\FaceFinder\lib\opencv450\modules\ml\..\lib\Debug-x64\opencv_ml450d.lib

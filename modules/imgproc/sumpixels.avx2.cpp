@@ -1,3 +1,2 @@
-
-#include "D:/LIB/opencv/opencv450/sources/modules/imgproc/src/precomp.hpp"
-#include "D:/LIB/opencv/opencv450/sources/modules/imgproc/src/sumpixels.simd.hpp"
+#include "src/precomp.hpp"
+#include "src/sumpixels.simd.hpp"

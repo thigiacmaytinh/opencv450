@@ -24,19 +24,19 @@ extern __declspec(dllimport) bool __termination;  // Details: #12750
 #define DLL_MAIN_ARG0 HINSTANCE
 #endif
 
-extern "C"
-BOOL WINAPI DllMain(DLL_MAIN_ARG0, DWORD fdwReason, LPVOID lpReserved);
-
-extern "C"
-BOOL WINAPI DllMain(DLL_MAIN_ARG0, DWORD fdwReason, LPVOID lpReserved)
-{
-    if (fdwReason == DLL_THREAD_DETACH || fdwReason == DLL_PROCESS_DETACH)
-    {
-        if (lpReserved != NULL) // called after ExitProcess() call
-        {
-            //printf("OpenCV: terminating: " OPENCV_MODULE_S "\n");
-            cv::__termination = true;
-        }
-    }
-    return TRUE;
-}
+//extern "C"
+//BOOL WINAPI DllMain(DLL_MAIN_ARG0, DWORD fdwReason, LPVOID lpReserved);
+//
+//extern "C"
+//BOOL WINAPI DllMain(DLL_MAIN_ARG0, DWORD fdwReason, LPVOID lpReserved)
+//{
+//    if (fdwReason == DLL_THREAD_DETACH || fdwReason == DLL_PROCESS_DETACH)
+//    {
+//        if (lpReserved != NULL) // called after ExitProcess() call
+//        {
+//            //printf("OpenCV: terminating: " OPENCV_MODULE_S "\n");
+//            cv::__termination = true;
+//        }
+//    }
+//    return TRUE;
+//}

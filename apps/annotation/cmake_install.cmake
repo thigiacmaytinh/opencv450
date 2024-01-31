@@ -34,9 +34,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc15/bin" TYPE EXECUTABLE FILES "D:/LIB/opencv/opencv450/build/bin/Debug/opencv_annotationd.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE EXECUTABLE FILES "D:/LIB/opencv/opencv450/build/bin/Debug/opencv_annotationd.exe")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc15/bin" TYPE EXECUTABLE FILES "D:/LIB/opencv/opencv450/build/bin/Release/opencv_annotation.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/x64/vc16/bin" TYPE EXECUTABLE FILES "D:/LIB/opencv/opencv450/build/bin/Release/opencv_annotation.exe")
   endif()
 endif()
 

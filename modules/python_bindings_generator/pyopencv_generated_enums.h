@@ -89,13 +89,6 @@ typedef cv::Formatter::FormatType Formatter_FormatType;
 CV_PY_FROM_ENUM(Formatter_FormatType);
 CV_PY_TO_ENUM(Formatter_FormatType);
 
-typedef cv::GFluidKernel::Kind GFluidKernel_Kind;
-CV_PY_FROM_ENUM(GFluidKernel_Kind);
-CV_PY_TO_ENUM(GFluidKernel_Kind);
-
-CV_PY_FROM_ENUM(GShape);
-CV_PY_TO_ENUM(GShape);
-
 CV_PY_FROM_ENUM(GemmFlags);
 CV_PY_TO_ENUM(GemmFlags);
 
@@ -165,13 +158,6 @@ CV_PY_TO_ENUM(LocalOptimMethod);
 CV_PY_FROM_ENUM(MarkerTypes);
 CV_PY_TO_ENUM(MarkerTypes);
 
-CV_PY_FROM_ENUM(MediaFormat);
-CV_PY_TO_ENUM(MediaFormat);
-
-typedef cv::MediaFrame::Access MediaFrame_Access;
-CV_PY_FROM_ENUM(MediaFrame_Access);
-CV_PY_TO_ENUM(MediaFrame_Access);
-
 CV_PY_FROM_ENUM(MorphShapes);
 CV_PY_TO_ENUM(MorphShapes);
 
@@ -209,10 +195,6 @@ CV_PY_TO_ENUM(QtFontStyles);
 
 CV_PY_FROM_ENUM(QtFontWeights);
 CV_PY_TO_ENUM(QtFontWeights);
-
-typedef cv::RMat::Access RMat_Access;
-CV_PY_FROM_ENUM(RMat_Access);
-CV_PY_TO_ENUM(RMat_Access);
 
 CV_PY_FROM_ENUM(RectanglesIntersectTypes);
 CV_PY_TO_ENUM(RectanglesIntersectTypes);
@@ -324,14 +306,6 @@ typedef cv::bgsegm::LSBPCameraMotionCompensation bgsegm_LSBPCameraMotionCompensa
 CV_PY_FROM_ENUM(bgsegm_LSBPCameraMotionCompensation);
 CV_PY_TO_ENUM(bgsegm_LSBPCameraMotionCompensation);
 
-typedef cv::cuda::AlphaCompTypes cuda_AlphaCompTypes;
-CV_PY_FROM_ENUM(cuda_AlphaCompTypes);
-CV_PY_TO_ENUM(cuda_AlphaCompTypes);
-
-typedef cv::cuda::DemosaicTypes cuda_DemosaicTypes;
-CV_PY_FROM_ENUM(cuda_DemosaicTypes);
-CV_PY_TO_ENUM(cuda_DemosaicTypes);
-
 typedef cv::cuda::DeviceInfo::ComputeMode cuda_DeviceInfo_ComputeMode;
 CV_PY_FROM_ENUM(cuda_DeviceInfo_ComputeMode);
 CV_PY_TO_ENUM(cuda_DeviceInfo_ComputeMode);
@@ -348,29 +322,9 @@ typedef cv::cuda::HostMem::AllocType cuda_HostMem_AllocType;
 CV_PY_FROM_ENUM(cuda_HostMem_AllocType);
 CV_PY_TO_ENUM(cuda_HostMem_AllocType);
 
-typedef cv::cuda::NvidiaOpticalFlow_1_0::NVIDIA_OF_PERF_LEVEL cuda_NvidiaOpticalFlow_1_0_NVIDIA_OF_PERF_LEVEL;
-CV_PY_FROM_ENUM(cuda_NvidiaOpticalFlow_1_0_NVIDIA_OF_PERF_LEVEL);
-CV_PY_TO_ENUM(cuda_NvidiaOpticalFlow_1_0_NVIDIA_OF_PERF_LEVEL);
-
 typedef cv::cuda::SURF_CUDA::KeypointLayout cuda_SURF_CUDA_KeypointLayout;
 CV_PY_FROM_ENUM(cuda_SURF_CUDA_KeypointLayout);
 CV_PY_TO_ENUM(cuda_SURF_CUDA_KeypointLayout);
-
-typedef cv::cudacodec::ChromaFormat cudacodec_ChromaFormat;
-CV_PY_FROM_ENUM(cudacodec_ChromaFormat);
-CV_PY_TO_ENUM(cudacodec_ChromaFormat);
-
-typedef cv::cudacodec::Codec cudacodec_Codec;
-CV_PY_FROM_ENUM(cudacodec_Codec);
-CV_PY_TO_ENUM(cudacodec_Codec);
-
-typedef cv::cudacodec::EncoderCallBack::PicType cudacodec_EncoderCallBack_PicType;
-CV_PY_FROM_ENUM(cudacodec_EncoderCallBack_PicType);
-CV_PY_TO_ENUM(cudacodec_EncoderCallBack_PicType);
-
-typedef cv::cudacodec::SurfaceFormat cudacodec_SurfaceFormat;
-CV_PY_FROM_ENUM(cudacodec_SurfaceFormat);
-CV_PY_TO_ENUM(cudacodec_SurfaceFormat);
 
 typedef cv::datasets::actionType datasets_actionType;
 CV_PY_FROM_ENUM(datasets_actionType);
@@ -404,10 +358,6 @@ typedef cv::datasets::sampleType datasets_sampleType;
 CV_PY_FROM_ENUM(datasets_sampleType);
 CV_PY_TO_ENUM(datasets_sampleType);
 
-typedef cv::detail::ArgKind detail_ArgKind;
-CV_PY_FROM_ENUM(detail_ArgKind);
-CV_PY_TO_ENUM(detail_ArgKind);
-
 typedef cv::detail::DpSeamFinder::CostFunction detail_DpSeamFinder_CostFunction;
 CV_PY_FROM_ENUM(detail_DpSeamFinder_CostFunction);
 CV_PY_TO_ENUM(detail_DpSeamFinder_CostFunction);
@@ -415,10 +365,6 @@ CV_PY_TO_ENUM(detail_DpSeamFinder_CostFunction);
 typedef cv::detail::GraphCutSeamFinderBase::CostType detail_GraphCutSeamFinderBase_CostType;
 CV_PY_FROM_ENUM(detail_GraphCutSeamFinderBase_CostType);
 CV_PY_TO_ENUM(detail_GraphCutSeamFinderBase_CostType);
-
-typedef cv::detail::OpaqueKind detail_OpaqueKind;
-CV_PY_FROM_ENUM(detail_OpaqueKind);
-CV_PY_TO_ENUM(detail_OpaqueKind);
 
 typedef cv::detail::TestOp detail_TestOp;
 CV_PY_FROM_ENUM(detail_TestOp);
@@ -439,10 +385,6 @@ CV_PY_TO_ENUM(dnn_Target);
 typedef cv::flann::FlannIndexType flann_FlannIndexType;
 CV_PY_FROM_ENUM(flann_FlannIndexType);
 CV_PY_TO_ENUM(flann_FlannIndexType);
-
-typedef cv::gapi::ie::TraitAs gapi_ie_TraitAs;
-CV_PY_FROM_ENUM(gapi_ie_TraitAs);
-CV_PY_TO_ENUM(gapi_ie_TraitAs);
 
 typedef cv::img_hash::BlockMeanHashMode img_hash_BlockMeanHashMode;
 CV_PY_FROM_ENUM(img_hash_BlockMeanHashMode);

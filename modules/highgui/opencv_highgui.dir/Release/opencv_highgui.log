@@ -1,0 +1,7 @@
+﻿  window.cpp
+  roiSelector.cpp
+  window_w32.cpp
+  opencv_highgui_main.cpp
+  opencv_highgui_pch.cpp
+opencv_highgui_pch.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  opencv_highgui.vcxproj -> D:\PROJECT\CV\FaceFinder\lib\opencv450\modules\highgui\..\lib\Release-x64\opencv_highgui450.lib

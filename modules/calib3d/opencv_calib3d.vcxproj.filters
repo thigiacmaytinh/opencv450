@@ -1,232 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\ap3p.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\calibinit.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\calibration.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\calibration_handeye.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\checkchessboard.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\chessboard.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\circlesgrid.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\compat_ptsetreg.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\dls.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\epnp.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\fisheye.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\five-point.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\fundam.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\homography_decomp.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\ippe.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\levmarq.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\main.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\p3p.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\polynom_solver.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\posit.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\ptsetreg.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\quadsubpix.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\rho.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\solvepnp.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\stereobm.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\stereosgbm.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\triangulate.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\undistort.dispatch.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\upnp.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\degeneracy.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\dls_solver.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\essential_solver.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\estimator.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\fundamental_solver.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\gamma_values.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\homography_solver.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\local_optimization.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\pnp_solver.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\quality.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\ransac_solvers.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\sampler.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\termination.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac\utils.cpp">
-      <Filter>Src\usac</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\calib3d\opencl_kernels_calib3d.cpp">
-      <Filter>Src\opencl\kernels\autogenerated</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\calib3d\opencv_calib3d_pch.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\calib3d\opencv_calib3d_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="src\ap3p.cpp" />
+    <ClCompile Include="src\calibinit.cpp" />
+    <ClCompile Include="src\calibration.cpp" />
+    <ClCompile Include="src\calibration_handeye.cpp" />
+    <ClCompile Include="src\checkchessboard.cpp" />
+    <ClCompile Include="src\chessboard.cpp" />
+    <ClCompile Include="src\circlesgrid.cpp" />
+    <ClCompile Include="src\compat_ptsetreg.cpp" />
+    <ClCompile Include="src\dls.cpp" />
+    <ClCompile Include="src\epnp.cpp" />
+    <ClCompile Include="src\fisheye.cpp" />
+    <ClCompile Include="src\five-point.cpp" />
+    <ClCompile Include="src\fundam.cpp" />
+    <ClCompile Include="src\homography_decomp.cpp" />
+    <ClCompile Include="src\ippe.cpp" />
+    <ClCompile Include="src\levmarq.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\p3p.cpp" />
+    <ClCompile Include="src\polynom_solver.cpp" />
+    <ClCompile Include="src\posit.cpp" />
+    <ClCompile Include="src\ptsetreg.cpp" />
+    <ClCompile Include="src\quadsubpix.cpp" />
+    <ClCompile Include="src\rho.cpp" />
+    <ClCompile Include="src\solvepnp.cpp" />
+    <ClCompile Include="src\stereobm.cpp" />
+    <ClCompile Include="src\stereosgbm.cpp" />
+    <ClCompile Include="src\triangulate.cpp" />
+    <ClCompile Include="src\undistort.dispatch.cpp" />
+    <ClCompile Include="src\upnp.cpp" />
+    <ClCompile Include="src\usac\degeneracy.cpp" />
+    <ClCompile Include="src\usac\dls_solver.cpp" />
+    <ClCompile Include="src\usac\essential_solver.cpp" />
+    <ClCompile Include="src\usac\estimator.cpp" />
+    <ClCompile Include="src\usac\fundamental_solver.cpp" />
+    <ClCompile Include="src\usac\gamma_values.cpp" />
+    <ClCompile Include="src\usac\homography_solver.cpp" />
+    <ClCompile Include="src\usac\local_optimization.cpp" />
+    <ClCompile Include="src\usac\pnp_solver.cpp" />
+    <ClCompile Include="src\usac\quality.cpp" />
+    <ClCompile Include="src\usac\ransac_solvers.cpp" />
+    <ClCompile Include="src\usac\sampler.cpp" />
+    <ClCompile Include="src\usac\termination.cpp" />
+    <ClCompile Include="src\usac\utils.cpp" />
+    <ClCompile Include="opencl_kernels_calib3d.cpp" />
+    <ClCompile Include="opencv_calib3d_pch.cpp" />
+    <ClCompile Include="opencv_calib3d_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\include\opencv2\calib3d.hpp">
-      <Filter>Include\opencv2</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\include\opencv2\calib3d\calib3d.hpp">
-      <Filter>Include\opencv2\calib3d</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\include\opencv2\calib3d\calib3d_c.h">
-      <Filter>Include\opencv2\calib3d</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\build\modules\calib3d\opencl_kernels_calib3d.hpp">
-      <Filter>Src\opencl\kernels\autogenerated</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\ap3p.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\calib3d_c_api.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\chessboard.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\circlesgrid.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\distortion_model.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\dls.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\epnp.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\fisheye.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\ippe.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\p3p.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\polynom_solver.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\precomp.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\rho.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\undistort.simd.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\upnp.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\usac.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\build\cvconfig.h">
-      <Filter>Include</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\build\opencv2\opencv_modules.hpp">
-      <Filter>Include</Filter>
-    </ClInclude>
+    <ClInclude Include="include\opencv2\calib3d.hpp" />
+    <ClInclude Include="include\opencv2\calib3d\calib3d.hpp" />
+    <ClInclude Include="include\opencv2\calib3d\calib3d_c.h" />
+    <ClInclude Include="opencl_kernels_calib3d.hpp" />
+    <ClInclude Include="src\ap3p.h" />
+    <ClInclude Include="src\calib3d_c_api.h" />
+    <ClInclude Include="src\chessboard.hpp" />
+    <ClInclude Include="src\circlesgrid.hpp" />
+    <ClInclude Include="src\distortion_model.hpp" />
+    <ClInclude Include="src\dls.h" />
+    <ClInclude Include="src\epnp.h" />
+    <ClInclude Include="src\fisheye.hpp" />
+    <ClInclude Include="src\ippe.hpp" />
+    <ClInclude Include="src\p3p.h" />
+    <ClInclude Include="src\polynom_solver.h" />
+    <ClInclude Include="src\precomp.hpp" />
+    <ClInclude Include="src\rho.h" />
+    <ClInclude Include="src\undistort.simd.hpp" />
+    <ClInclude Include="src\upnp.h" />
+    <ClInclude Include="src\usac.hpp" />
+    <ClInclude Include="cvconfig.h" />
+    <ClInclude Include="opencv_modules.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\LIB\opencv\opencv450\build\CMakeFiles\8030515602951917115c8b87969661b9\opencl_kernels_calib3d.cpp.rule">
-      <Filter>CMake Rules</Filter>
-    </CustomBuild>
+    <None Include="src\opencl\stereobm.cl" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\LIB\opencv\opencv450\sources\modules\calib3d\src\opencl\stereobm.cl">
-      <Filter>Src\opencl\kernels</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="D:\LIB\opencv\opencv450\build\modules\calib3d\opencv_calib3d_AVX2.dir\$(Configuration)\undistort.avx2.obj">
-      <Filter>Object Libraries</Filter>
-    </Object>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="D:\LIB\opencv\opencv450\build\modules\calib3d\vs_version.rc">
-      <Filter>Src</Filter>
-    </ResourceCompile>
+    <ResourceCompile Include="vs_version.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
@@ -240,9 +90,6 @@
     </Filter>
     <Filter Include="Include\opencv2\calib3d">
       <UniqueIdentifier>{126CB957-6C50-334F-8E57-A7C32EC2B2CE}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Object Libraries">
-      <UniqueIdentifier>{0AB60004-E7B4-3D79-A52B-F399966F4CFF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{CE12B7EF-4DE0-3097-AE17-93B2DA197F27}</UniqueIdentifier>

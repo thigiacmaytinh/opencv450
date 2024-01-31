@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
@@ -12,7 +15,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EB8A7756-CAD2-378F-B2AF-25701481405B}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>opencv_perf_photo</ProjectName>
@@ -22,12 +25,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -53,10 +56,11 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\sources\modules\imgcodecs\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;..\imgcodecs\include;..\core\include;..\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;$(SolutionDir)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
-      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
@@ -71,15 +75,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\sources\modules\imgcodecs\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;..\imgcodecs\include;..\core\include;..\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;$(SolutionDir)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\sources\modules\imgcodecs\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;..\imgcodecs\include;..\core\include;..\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;$(SolutionDir)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -87,7 +91,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Debug\opencv_ts450d.lib;..\..\lib\Debug\opencv_photo450d.lib;..\..\lib\Debug\opencv_highgui450d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Debug\opencv_videoio450d.lib;..\..\lib\Debug\opencv_imgcodecs450d.lib;..\..\lib\Debug\opencv_imgproc450d.lib;..\..\lib\Debug\opencv_core450d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_ts450d.lib;..\..\lib\Debug\opencv_photo450d.lib;..\..\lib\Debug\opencv_highgui450d.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Debug\opencv_videoio450d.lib;..\..\lib\Debug\opencv_imgcodecs450d.lib;..\..\lib\Debug\opencv_imgproc450d.lib;..\lib\Debug-x64\opencv_core450d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -102,9 +106,10 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\sources\modules\imgcodecs\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;..\imgcodecs\include;..\core\include;..\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;$(SolutionDir)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
-      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
       <ExceptionHandling>Async</ExceptionHandling>
       <FloatingPointModel>Precise</FloatingPointModel>
@@ -118,17 +123,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\sources\modules\imgcodecs\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;..\imgcodecs\include;..\core\include;..\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;$(SolutionDir)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\iw\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;D:\LIB\opencv\opencv450\sources\modules\imgcodecs\include;D:\LIB\opencv\opencv450\sources\modules\core\include;D:\LIB\opencv\opencv450\sources\modules\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;D:\LIB\opencv\opencv450\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\LIB\opencv\opencv450\build\3rdparty\ippicv\ippicv_win\icv\include;D:\LIB\opencv\opencv450\sources\modules\ts\include;D:\LIB\opencv\opencv450\sources\modules\photo\include;..\imgcodecs\include;..\core\include;..\imgproc\include;D:\LIB\opencv\opencv450\sources\modules\videoio\include;D:\LIB\opencv\opencv450\sources\modules\highgui\include;$(SolutionDir)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -136,7 +141,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Release\opencv_ts450.lib;..\..\lib\Release\opencv_photo450.lib;..\..\lib\Release\opencv_highgui450.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Release\opencv_videoio450.lib;..\..\lib\Release\opencv_imgcodecs450.lib;..\..\lib\Release\opencv_imgproc450.lib;..\..\lib\Release\opencv_core450.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Release\opencv_ts450.lib;..\..\lib\Release\opencv_photo450.lib;..\..\lib\Release\opencv_highgui450.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Release\opencv_videoio450.lib;..\..\lib\Release\opencv_imgcodecs450.lib;..\..\lib\Release\opencv_imgproc450.lib;..\..\lib\Release\opencv_core450.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -161,7 +166,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LIB\opencv\opencv450\sources\cmake\templates\dllmain.cpp.in;D:\LIB\opencv\opencv450\sources\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/CMakeLists.txt;D:\LIB\opencv\opencv450\sources\cmake\templates\dllmain.cpp.in;D:\LIB\opencv\opencv450\sources\cmake\templates\vs_version.rc.in;D:\LIB\opencv\opencv450\sources\modules\photo\CMakeLists.txt;D:\LIB\opencv\opencv450\sources\modules\photo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\LIB\opencv\opencv450\build\modules\photo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/LIB/opencv/opencv450/sources/modules/photo/CMakeLists.txt</Message>
@@ -174,49 +179,49 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LIB\opencv\opencv450\sources\cmake\templates\dllmain.cpp.in;D:\LIB\opencv\opencv450\sources\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/CMakeLists.txt;D:\LIB\opencv\opencv450\sources\cmake\templates\dllmain.cpp.in;D:\LIB\opencv\opencv450\sources\cmake\templates\vs_version.rc.in;D:\LIB\opencv\opencv450\sources\modules\photo\CMakeLists.txt;D:\LIB\opencv\opencv450\sources\modules\photo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\LIB\opencv\opencv450\build\modules\photo\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\photo\perf\opencl\perf_denoising.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\photo\perf\perf_cuda.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\photo\perf\perf_inpaint.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\photo\perf\perf_main.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
     <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\photo\perf\perf_precomp.hpp" />
     <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\photo\opencv_perf_photo_pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/LIB/opencv/opencv450/sources/modules/photo/perf/perf_precomp.hpp</PrecompiledHeaderFile>
     </ClCompile>
   </ItemGroup>
@@ -227,39 +232,49 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\3rdparty\ippiw\ippiw.vcxproj">
-      <Project>{ECEA50E7-4EFC-346A-9D42-4ED01CA96DA0}</Project>
-      <Name>ippiw</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\core\opencv_core.vcxproj">
+    <ProjectReference Include="..\core\opencv_core.vcxproj">
       <Project>{26820A44-4B84-3AD3-A82C-3BB5CC597915}</Project>
       <Name>opencv_core</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\highgui\opencv_highgui.vcxproj">
+    <ProjectReference Include="..\highgui\opencv_highgui.vcxproj">
       <Project>{2ED7E492-2FB6-388C-9D1E-130B1217C6D2}</Project>
       <Name>opencv_highgui</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+    <ProjectReference Include="..\imgcodecs\opencv_imgcodecs.vcxproj">
       <Project>{B7EA3436-145A-37A3-AA8D-BC694C9B1F69}</Project>
       <Name>opencv_imgcodecs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\imgproc\opencv_imgproc.vcxproj">
+    <ProjectReference Include="..\imgproc\opencv_imgproc.vcxproj">
       <Project>{2989009F-683B-3056-8726-9FD2005880A4}</Project>
       <Name>opencv_imgproc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\photo\opencv_photo.vcxproj">
+    <ProjectReference Include="..\photo\opencv_photo.vcxproj">
       <Project>{00A0B2A6-6CA2-3361-B74D-F978A64848AC}</Project>
       <Name>opencv_photo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\ts\opencv_ts.vcxproj">
+    <ProjectReference Include="..\ts\opencv_ts.vcxproj">
       <Project>{E102F3C3-F3B2-3A5E-9FD3-6ABD49CDD348}</Project>
       <Name>opencv_ts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\videoio\opencv_videoio.vcxproj">
+    <ProjectReference Include="..\videoio\opencv_videoio.vcxproj">
       <Project>{578E90C5-8F5A-30F3-941F-F2E2338D1012}</Project>
       <Name>opencv_videoio</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\LIB\opencv\opencv450\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+    <ProjectReference Include="..\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
       <Project>{3584098D-E33F-3A76-AE4D-16FAD77442C9}</Project>
       <Name>opencv_videoio_plugins</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

@@ -1,77 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\cuda_perf.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\cuda_test.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ocl_perf.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ocl_test.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ts.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ts_arrtest.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ts_func.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ts_gtest.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ts_perf.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ts_tags.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\LIB\opencv\opencv450\build\modules\ts\opencv_ts_pch.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
+    <ClCompile Include="src\cuda_perf.cpp" />
+    <ClCompile Include="src\cuda_test.cpp" />
+    <ClCompile Include="src\ocl_perf.cpp" />
+    <ClCompile Include="src\ocl_test.cpp" />
+    <ClCompile Include="src\ts.cpp" />
+    <ClCompile Include="src\ts_arrtest.cpp" />
+    <ClCompile Include="src\ts_func.cpp" />
+    <ClCompile Include="src\ts_gtest.cpp" />
+    <ClCompile Include="src\ts_perf.cpp" />
+    <ClCompile Include="src\ts_tags.cpp" />
+    <ClCompile Include="opencv_ts_pch.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts.hpp">
-      <Filter>Include\opencv2</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts\cuda_perf.hpp">
-      <Filter>Include\opencv2\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts\cuda_test.hpp">
-      <Filter>Include\opencv2\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts\ocl_perf.hpp">
-      <Filter>Include\opencv2\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts\ocl_test.hpp">
-      <Filter>Include\opencv2\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts\ts_ext.hpp">
-      <Filter>Include\opencv2\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts\ts_gtest.h">
-      <Filter>Include\opencv2\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\include\opencv2\ts\ts_perf.hpp">
-      <Filter>Include\opencv2\ts</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\precomp.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\sources\modules\ts\src\ts_tags.hpp">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\build\cvconfig.h">
-      <Filter>Include</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\LIB\opencv\opencv450\build\opencv2\opencv_modules.hpp">
-      <Filter>Include</Filter>
-    </ClInclude>
+    <ClInclude Include="include\opencv2\ts.hpp" />
+    <ClInclude Include="include\opencv2\ts\cuda_perf.hpp" />
+    <ClInclude Include="include\opencv2\ts\cuda_test.hpp" />
+    <ClInclude Include="include\opencv2\ts\ocl_perf.hpp" />
+    <ClInclude Include="include\opencv2\ts\ocl_test.hpp" />
+    <ClInclude Include="include\opencv2\ts\ts_ext.hpp" />
+    <ClInclude Include="include\opencv2\ts\ts_gtest.h" />
+    <ClInclude Include="include\opencv2\ts\ts_perf.hpp" />
+    <ClInclude Include="src\precomp.hpp" />
+    <ClInclude Include="src\ts_tags.hpp" />
+    <ClInclude Include="cvconfig.h" />
+    <ClInclude Include="opencv_modules.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Include">
